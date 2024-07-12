@@ -42,6 +42,8 @@ def heavy_weapon():
 
 def legendary_weapon():
     Legendary_weapon = ['old (curved crypt etc.),''new (deepspindle kyrswynter etc.)','wyrmtooth',]
+    Legendary_weapon_choose = random.choice(Legendary_weapon)
+    return Legendary_weapon_choose
 
 while True:
     deepwoken = input("Press any key to continue, or Enter to exit: ")
