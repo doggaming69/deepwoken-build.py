@@ -1,7 +1,7 @@
 import random #DEEPWOKEN BUILD RANDOMIZER 
 
 def weapon():
-    Weapon = ["light", "medium", "heavy",]
+    Weapon = ["light", "medium", "heavy","legendary"]
     weapon_choose = random.choice(Weapon)
     return weapon_choose
 
@@ -11,7 +11,7 @@ def attunement():
     return attunement_choose
 
 def oath():
-    Oath = ["oathless", "jetstriker", "blindseer", "dawnwalker", "fadetrimmer", "contractor", "linkstrider", "visionshaper", "starkindred"]
+    Oath = ["oathless", "jetstriker", "blindseer", "dawnwalker", "fadetrimmer", "contractor", "linkstrider", "visionshaper", "starkindred",'saltchemist','arcwarder']
     Oath_choose = random.choice(Oath)
     return Oath_choose
 
@@ -26,19 +26,22 @@ def bell_usage():
     return Bell_usage_choose
 
 def medium_weapon():
-    Medium_weapon = ['sword','spear','rifle']
+    Medium_weapon = ['sword','spear','rifle','Hero blade','purple cloud']
     Medium_weapon_choose = random.choice(Medium_weapon)
     return Medium_weapon_choose
 
 def light_weapon():
-    Light_weapon = ['dagger','fist','rapier','guns','jus karita']
+    Light_weapon = ['dagger','fist','rapier','guns','jus karita','cerulean thread']
     Light_weapon_choose = random.choice(Light_weapon)
     return Light_weapon_choose
 
 def heavy_weapon():
-    Heavy_weapon = ['greataxe','halberd','greathammer','misc (for example petra anchor)']
+    Heavy_weapon = ['greataxe','halberd','greathammer','misc','pale briar']
     Heavy_weapon_choose = random.choice(Heavy_weapon)
     return Heavy_weapon_choose
+
+def legendary_weapon():
+    Legendary_weapon = ['old (curved crypt etc.),''new (deepspindle kyrswynter etc.)','wyrmtooth',]
 
 while True:
     deepwoken = input("Press any key to continue, or Enter to exit: ")
@@ -60,3 +63,5 @@ if deepwoken2 == ('heavy'):
     print ("Weapon variant:", heavy_weapon())
 if deepwoken2 == ('light'):
     print ("Weapon variant:",light_weapon())
+if deepwoken2 == ('legendary'):
+    print ("Weapon variant",legendary_weapon())
