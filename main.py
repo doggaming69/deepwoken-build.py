@@ -41,7 +41,7 @@ def heavy_weapon():
     return Heavy_weapon_choose
 
 def legendary_weapon():
-    Legendary_weapon = ['old (curved crypt etc.),''new (deepspindle kyrswynter etc.)','wyrmtooth',]
+    Legendary_weapon = ['old (curved crypt etc.)','new (deepspindle kyrswynter etc.)','wyrmtooth',]
     Legendary_weapon_choose = random.choice(Legendary_weapon)
     return Legendary_weapon_choose
 
