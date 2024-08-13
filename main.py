@@ -11,7 +11,7 @@ def attunement():
     return attunement_choose
 
 def oath():
-    Oath = ["oathless", "jetstriker", "blindseer", "dawnwalker", "fadetrimmer", "contractor", "linkstrider", "visionshaper", "starkindred",'saltchemist','arcwarder']
+    Oath = ["oathless", "jetstriker", "blindseer", "dawnwalker", "fadetrimmer", "contractor", "linkstrider", "visionshaper", "starkindred",'saltchemist','arcwarder','chainwarden']
     Oath_choose = random.choice(Oath)
     return Oath_choose
 
